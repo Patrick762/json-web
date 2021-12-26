@@ -1,0 +1,9 @@
+{
+  "name": "html-compressor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "jsdom": "^19.0.0"
+  }
+}
