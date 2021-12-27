@@ -110,10 +110,11 @@ function minimizeAttributes(attributes) {
 	if (attributes && attributes.length > 0) {
 		attr = {};
 		for (a of attributes) {
-			if (attr[a.name] != 'class') {
+			if (a.name != 'class') {
 				attr[a.name] = a.value;
 			}
 		}
+		if (Object.keys(attr).length == 0) attr = null;
 	}
 	return attr;
 }
