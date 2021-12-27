@@ -3,13 +3,17 @@ Use JSON to minimize your HTML code
 
 ## Minimize your HTML file
 
-After downloading the repository:
+Download package from npm:
 
-- Put your file in the `minimizer` directory
-- In the `index.js` file, replace `example.html` with your filename
-- Open a console inside the `minimizer` directory
-- Run `npm i` and `node .`
-- Your compressed file will be named `output.json` (you can change this in the `index.js` file)
+`npm i -g json-web`
+
+To minimize the html file, run the following command:
+
+`json-web <INPUT-HTML> <OUTPUT-JSON> [pretty]`
+
+- `<INPUT-HTML>` - The html file you want to minimize
+- `<OUTPUT-JSON>` - The output json file
+- `[pretty]` - Include this if you want a readable json file
 
 ## Using the compressed HTML file
 
