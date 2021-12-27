@@ -1,6 +1,8 @@
 # json-web
 Use JSON to minimize your HTML code
 
+[<img alt="npm" src="https://img.shields.io/npm/v/json-web">](https://www.npmjs.com/package/json-web)
+
 ## Minimize your HTML file
 
 Download package from npm:
