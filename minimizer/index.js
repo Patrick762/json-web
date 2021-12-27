@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var fs = require('fs');
 const { JSDOM } = require("jsdom");
 const { minimize } = require('./minimizer');

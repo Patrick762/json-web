@@ -1,7 +1,31 @@
 {
-  "name": "html-compressor",
+  "name": "json-web",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "index.js",
+  "author": "Patrick762 <json-web.patrick762@hosting-rt.de>",
+  "license": "MIT",
+  "files": [
+    "minimizer.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Patrick762/json-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Patrick762/json-web/issues"
+  },
+  "homepage": "https://github.com/Patrick762/json-web#readme",
+  "keywords": [
+    "json-web",
+    "minimize",
+    "html",
+    "json",
+    "js",
+    "javascript",
+    "compress",
+    "reduce"
+  ],
   "scripts": {},
   "dependencies": {
     "jsdom": "^19.0.0"
